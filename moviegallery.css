@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    /* width: 100%; */
+    background-color: black;
+    color:  white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+   
+}
+
+nav img{
+    height: 100px;
+}
+
+a{
+    margin-right: 15px;
+    text-decoration: none;
+   
+    color: white;
+    padding: 12px 20px; 
+}
+.right_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 577px;
+}
+.link1{
+    background-color: red;
+    border-radius: 5px;
+}
+.link2{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.descrip2{
+    width: 727px;
+    background-color: rgba(0, 0, 255, 0);
+    padding: 50px;
+    
+}
+.descrip2 h1{
+    font-size: 50px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 900;
+    
+}
+
+.descrip2 p{
+    font-size: 19px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.6);
+    color: white;
+    
+    font-weight: 575;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+body{
+    background-color: #181818;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+.category{
+    background-color: rgba(17, 102, 177, 0);
+    width: 300px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.new_release h1{
+    color: white;
+   margin-left: 50px;
+    font-size: 19px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+.movies{
+    height: auto;
+    background-color: #181818;
+    display: flex;
+    justify-content: space-evenly;
+}
+.c{
+    width: 19%;
+    height: 160px;
+    
+    text-align: center;
+    color: white;
+    
+}
+.c img{
+    background-size: cover;
+    width:289px;
+    height: 157px;
+}
+.movie_name{
+    font-size: 20px;
+   
+}
+.movie_bg:hover{
+    transform: scale(1.1);
+}
+.y{
+    margin-top: 50px;
+}
